@@ -1,0 +1,29 @@
+.label {
+    border: 1px solid yellow;
+    display: inline-block;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: yellow;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.label-primary {    
+    background-color: black;
+}
+
+.margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+html {
+    background: url(moduleBackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

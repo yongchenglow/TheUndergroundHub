@@ -1,0 +1,93 @@
+html { 
+	background: url(homeBackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
+.textColour{
+	color:#FFF;
+}
+
+.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
+
+.navigation{
+	text-align: right;
+	padding: 15px 15px 15px 15px;
+	color: #FFF;
+}
+
+.navigation li { 
+	display: inline; 
+	padding: 8px; 
+}
+
+.navigation a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.siteTitle{
+	font-size: 48px;
+	font-weight: bold;
+	margin:0;
+}
+
+.siteSlogan{
+	font-size: 16px;
+	margin:0;
+}
+
+.billBoard{
+	text-align: center;
+}
+
+.searchBar {
+	width: 100%;
+	max-width: 500px;
+	height: 36px;
+	padding: 6px 12px;
+	font-size: 20px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	text-align: left;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.searchButton {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+}

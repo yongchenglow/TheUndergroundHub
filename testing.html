@@ -1,0 +1,66 @@
+<!doctype html PUBLIC>
+<html>
+	<!--Header-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<!--Wepage Name-->
+	  	<title>ModulePage</title>
+	  	
+	  	<!--Style-->
+	  	<link rel="stylesheet" href="normalise.css" type="text/css">
+	  	<link rel="stylesheet" href="ModulePageStyles.css" type="text/css">
+	</head>
+
+	<!--Web page Body-->
+	<body class="textColor">
+		<!--Advertisment Block-->
+		<div class="container">
+			<div class = "row">
+				<div class = "col-12 advertisment">
+					<a href="https://www.facebook.com/bakerybrera/" target="_blank">
+						<img src="BakeryBrera.jpg" class="image" alt="Bakery Brera">
+					</a>
+					<div class="advertWords">Advertisment</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Web page Menu-->
+		<div class="container">
+		  	<div class ="row">
+				<!--Logo-->
+				<div class ="col-4">
+					<p class ="siteTitle">
+						<a href="index.php">The Underground Hub</a>
+					</p>
+					<p class ="siteSlogan">
+						the information that you need &copy; 2016
+					</p>
+				</div>
+			
+				
+				<!--Search-->
+				<form action= modulePage.php method="post">
+					<!--Search Bar-->
+					<div class="col-7">
+					<p align="center">
+						<input type="text" name="searchValue" id="searchValue" class="searchBar"  placeholder="Type in the module code"/>
+					</p>
+					</div>
+								
+					<!--Search Button-->
+					<div class="col-1 alignSearchButton">
+						<input type="submit" class="button" name="SearchButton" id="SearchButton" value="Search">
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class = 'col-2 alignRateButton'>
+			<a href=RateModulePage.php class='button linkButton' role='button'>Rate Module</a>
+		</div>
+		
+		<div class = 'col-2 moduleCode'> $Mcode </div>
+		<div class = 'col-8 moduleName'> $Mname </div>
+	</body>
+</html>
